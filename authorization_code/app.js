@@ -9,10 +9,10 @@
 
 var express = require('express'); // Express web server framework
 var fetch = require('node-fetch'); // "node-fetch" library
-const { URLSearchParams } = require('url');
 var cors = require('cors');
 var querystring = require('querystring');
 var cookieParser = require('cookie-parser');
+const { URLSearchParams } = require('url');
 
 var client_id = process.env.SPOTIFY_CLIENT_ID; // Your client id
 var client_secret = process.env.SPOTIFY_CLIENT_SECRET; // Your secret
